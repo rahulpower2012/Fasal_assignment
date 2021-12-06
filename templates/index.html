@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Recognizer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
+</head>
+<body>
+    <nav class="navbar text-light bg-info">
+        <div class="mx-auto"><h1 style="font-family: arial">Humidity and Temperature prediction</h1></div>
+    </nav>
+        <a href="/temperature"><div class="btn-dark button"><p class="button-text">Temperature Check</p></div></a>
+        <a href="/humidity"><div class="btn-dark button"><p class="button-text">Humidity check</p></div></a>
+    </div>
+</body>
+</html>

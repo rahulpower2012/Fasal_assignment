@@ -1,0 +1,10 @@
+.button{
+    display: block;
+    width: fit-content;
+    margin: 1%;
+}
+
+.button-text{
+    margin: 10px;
+    align-content: center;
+}
